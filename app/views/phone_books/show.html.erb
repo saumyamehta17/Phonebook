@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @phone_book.Name %>
+</p>
+
+<p>
+  <b>Number:</b>
+  <%= @phone_book.Number %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @phone_book.Email %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%= @phone_book.Address %>
+</p>
+
+<p>
+  <b>Photo:</b>
+  <%= @phone_book.Photo %>
+</p>
+
+
+<%= link_to 'Edit', edit_phone_book_path(@phone_book) %> |
+<%= link_to 'Back', phone_books_path %>
